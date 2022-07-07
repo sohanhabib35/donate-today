@@ -1,0 +1,351 @@
+/*Universal selector here*/
+body {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/*----------------------------
+Utilities here \
+------------------------------*/
+h2{
+  font-size: 3rem;
+  text-align: center;
+}
+
+/* these are buttons */
+.primary {
+  background-color: #ff5959;
+  width: 130px;
+  height: 36px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.secondary{
+  background-color: #ff5959;
+  width: 300px;
+  height: 60px;
+  border: none;
+  border-radius: 5px;
+  color:white;
+  font-size: 1.5rem;
+}
+
+/* Css for the main section */
+.hero-container {
+  width: 100vw;
+  height: 669px;
+  background-image: url(/images/donation9.jpg);
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+  background-position: inherit;
+  background-size: cover;
+  background-color: black;
+}
+
+.hero {
+  width: 60%;
+  height: 100%;
+  margin: auto;
+}
+
+.hero h1 {
+  padding-top: 15%;
+  color: white;
+  font-size: 5rem;
+  text-align: center;
+}
+
+.hero p {
+  padding-top: 5%;
+  color: white;
+}
+
+.hero .primary{
+   display: block;
+   margin: 5% auto;
+}
+
+/* CSS for donate-today section  */
+.donate-today-container{
+  width: 100%;
+  height: auto;
+
+}
+
+.donate-today{
+  width: 60%;
+  height: 100%;
+  margin:0 auto;
+  padding-top: 3rem;
+}
+
+.donate-today h2{
+margin-top: 3rem;
+text-align: center;
+font-size: 3rem;
+}
+
+.donate-today p{
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.donate-today div{
+  margin-top: 3rem;
+  width: 100%;
+}
+
+.donate-list{
+  margin: 0 25%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.donate-list li{
+  margin: 5px;
+  padding: 20px;
+  background-color: rgb(245, 236, 236);
+  color: rgb(66, 79, 90);
+}
+
+#diff{
+  border: 3px solid #ff5959;
+  border-radius: 5%;
+  background-color: #efb7b7;
+}
+
+#interbdt{
+  border: none;
+  border-bottom: 1px solid black;
+  width: 50%;
+  margin: 26px 26%;
+  text-align: center;
+}
+
+.donate-today .primary{
+  display: block;
+  margin: 10px auto;
+}
+
+
+/* donate-plan section css here  */
+.donate-plan-container{
+  width: 100%;
+  height: auto;
+}
+
+.donate-plan{
+  width: 80%;
+  height: 100%;
+  margin: 6rem auto;
+}
+
+.donate-plan h2{
+  margin: auto;
+  text-align: center;
+  font-size: 3rem;
+}
+
+#problmatic{
+  margin: 25px 0;
+  text-align: center;
+}
+
+.donate-planlist{
+  display: flex;
+}
+
+.planlist{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.planlist>*{
+  margin: 25px;
+}
+
+.plan1{
+  background-color: rgb(213, 221, 244);
+}
+
+.plan2{
+  background-color: rgb(247, 232, 245);
+}
+
+.plan3{
+  background-color: rgb(232, 251, 202) ;
+}
+
+
+/* contribute-container css is here  */
+.contribute-container{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.contribute{
+  width: 80%;
+  margin: auto;
+}
+
+.contributeok{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  /* height: 500px; */
+}
+
+.contributeok>*{
+flex-basis: 50%;
+margin-top:20px ;
+}
+
+.image1{
+  /* width: 50%; */
+  /* height: 400px; */
+  /* object-fit: contsain; */
+  /* overflow: hidden; */
+}
+
+.image1 img{
+  width: 100%;
+  height: 500px;
+  border-radius: 10px;
+}
+.image2 img{
+  width: 100%;
+  height: 500px;
+  border-radius: 10px;
+}
+
+/* .image2{
+ width: 50%;
+ overflow:hidden;
+} */
+
+.text>*{ 
+margin: 20px 0;
+}
+
+.text h2{
+  font-size: 3rem;
+  text-align: start;
+}
+
+
+.updates-container{
+  width: 100%;
+  height: fit-content;
+}
+
+.updates{
+  width: 80%;
+  margin: 100px auto;
+}
+
+.updates>*{
+  margin: 20px;
+  text-align: center;
+}
+.updates h2{
+font-size: 3rem;
+}
+
+.email-subs{
+  background-color: #f7d6b1;
+  padding: 50px 0;
+  margin: 50px 150px;
+}
+
+.email-subs input{
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.tertiary{
+  background-color: #ff5959;
+  width: 7%;
+  height: 40px;
+  border: none;
+  border-radius: 5%;
+  color: white;
+  margin-left: 10px;
+}
+
+/* Bonous section CSS is here  */
+.bonous-container{
+  width: 100%;
+  height: fit-content;
+
+}
+
+.bonous{
+  width: 80%;
+  margin: auto;
+}
+
+.bonous >*{
+  margin: 20px;
+  text-align: center;
+}
+
+#total{
+  background-color: aquamarine;
+  margin: 0 35%;
+  padding: 20px;
+}
+
+.transpiracy{
+  display: block;
+  margin: 0 auto;
+}
+
+footer{
+  width: 100%;
+  height: auto;
+}
+
+.transpiracy{
+  background-color: #ff5959;
+  width: 120px;
+  height: 50px;
+  border: none;
+  border-radius: 5%;
+  color: white;
+}
+
+.hamble-container{
+  background-color: black;
+  margin-top: 10px;
+}
+
+.hamble{
+  width: 100%;
+  margin: 10px auto;
+  padding: 50px;
+}
+
+.hamble>*{
+  color: white;
+  text-align: center;
+  font-size: 4rem;
+}
+
+.hamble p{
+  font-size: 1rem;
+}
+
+
+
