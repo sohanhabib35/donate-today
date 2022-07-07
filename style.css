@@ -41,7 +41,7 @@ h2{
 .hero-container {
   width: 100vw;
   height: 669px;
-  background-image: url(/images/donation9.jpg);
+  background-image: url(./images/donation9.jpg);
   /* background-attachment: fixed; */
   background-repeat: no-repeat;
   background-position: inherit;
